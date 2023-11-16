@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT BASICS</title>
+</head>
+<body>
+    <h1>GIT CHEAT BASICS</h1>
+    <h2>Git Basics</h2>
+    <hr>
+    <p>Create an empty Git repo in a specified directory. Run with no argument to inialize the current directory as a git repository.</p>
+    <code>
+        git init &lt;directory&gt; </code>
+    <p>Clone repo located at onto the local machine. Original repo can be located on the loca.filesytem or on a remote machine via HTTP or SSH.</p>
+    <code>git clone &lt;repo&gt;</code>
+    <p>Define author name to be used in all commits in current repo. Devs commonly use --global flag to set config options for current user.</p>
+    <code>git config user.name &lt;name&gt;</code>
+    <p>Stage all changes in directory for the next commit. Replace directory with a file to change a specific file.</p>
+    <code>git add &lt;directory&gt;</code>
+    <p>Commit the staged snapshot, but instead of launching a text editor, usemessage as the commit message.</p>
+    <code>git commit -m &lt;"message"&gt;</code>
+    <p>List which files are staged, unstaged and untracked.</p>
+    <code>git status</code>
+    <p>Display the entire commit history using the default format. for customization see additional options.</p>
+    <code>git log</code>
+    <p>Show unstaged changes between your index and working directory.</p>
+    <code>git diff</code>
+</body>
+</html>
